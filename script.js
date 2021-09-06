@@ -38,7 +38,7 @@ function prompts(){
  if (upcase !== true && loCase !== true && spCase !== true && nuCase !== true){
    alert ("Must choose at least one option"); upCase();
  } else {
-   password()
+   writePassword()
  }
 };
 
@@ -52,4 +52,4 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", characterLength);

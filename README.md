@@ -16,9 +16,9 @@ Password Generator Project
 
 # Images
 
-<img src="images/Password1.png" alt="Password Generator Initial Screen">
-<img src="images/Password2.png" alt="Password Generator Prompt">
-<img src="images/Password3.png" alt="Password Generator Generated Password">
+<img src="Images/Password1.png" alt="Password Generator Initial Screen">
+<img src="Images/Password2.png" alt="Password Generator Prompt">
+<img src="Images/Password3.png" alt="Password Generator Generated Password">
 
 # Link
 https://madavila5.github.io/PasswordGen/ 
