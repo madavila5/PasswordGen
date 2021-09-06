@@ -14,11 +14,11 @@ Password Generator Project
 - CSS
 - HTML
 
-
 # Images
 
-<img src="images/Password1" alt="Password Generator Initial Screen">
-<img src="" alt="">
+<img src="images/Password1.png" alt="Password Generator Initial Screen">
+<img src="images/Password2.png" alt="Password Generator Prompt">
+<img src="images/Password3.png" alt="Password Generator Generated Password">
 
 # Link
 https://madavila5.github.io/PasswordGen/ 
