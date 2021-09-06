@@ -25,8 +25,8 @@ var loCase;
 var spCase;
 var nuCase;
 function prompts(){
-  upCase = confirm("Should it include an upCase");
-  loCase = confirm("Should it include an loCase");
+  upCase = confirm("Should it include an UPPERCASE");
+  loCase = confirm("Should it include an LOWERCASE");
   spCase = confirm("Should it include an SPECIAL CHARACTER");
   nuCase = confirm("Should it include an NUMBER");
  if (upCase !== true && loCase !== true && spCase !== true && nuCase !== true){
@@ -68,11 +68,22 @@ function password() {
       var randomValue = number[randomIndex];
       generated.push(randomValue);
     }
-  }
+  }shuffleArray(generated);
  }
+//to shuffle the array
+function shuffleArray(generated) {
+    for (var i = generated.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = generated[i];
+      generated[i] = generated[j];
+      generated[j] = temp;
+    }
+    var password = generated.join("");
+    writePassword(password);
+  }
 
 //original
-function writePassword(generated) {
+function writePassword(password) {
   var passwordText = document.getElementById("password");
   passwordText.innerText = password;
 }

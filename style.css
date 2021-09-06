@@ -123,6 +123,7 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  font-weight: bold;
 }
 
 @media (max-width: 690px) {
